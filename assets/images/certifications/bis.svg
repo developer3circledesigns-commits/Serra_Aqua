@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" width="200" height="56" role="img" aria-label="BIS, Bureau of Indian Standards">
+  <title>BIS — Bureau of Indian Standards</title>
+  <rect x="0.5" y="0.5" width="199" height="55" fill="none" stroke="#3d6b67" stroke-width="1"/>
+  <text x="14" y="31" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="0.5">BIS</text>
+  <rect x="14" y="38" width="34" height="2" fill="#a7ede6"/>
+  <text x="14" y="50" fill="#a7ede6" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="8" font-weight="600" letter-spacing="1.1" textLength="172" lengthAdjust="spacingAndGlyphs">BUREAU OF INDIAN STANDARDS</text>
+</svg>
