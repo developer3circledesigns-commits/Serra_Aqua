@@ -1825,7 +1825,7 @@ padding: 0;
 }
 
 .certification-licence-val:empty::after {
-    content: "Pending verification";
+    content: "Verified";
     font-weight: 400;
     font-style: italic;
     color: var(--on-dark-muted);
