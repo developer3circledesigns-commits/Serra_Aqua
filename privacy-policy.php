@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms | Serra Aqua Rivar Industries Pvt Ltd</title>
-    <meta name="description" content="Terms of use for Serra Aqua Rivar Industries Pvt Ltd website.">
+    <title>Privacy Policy | Serra Aqua Rivar Industries Pvt Ltd</title>
+    <meta name="description" content="Privacy policy for Serra Aqua Rivar Industries Pvt Ltd.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#004F4A">
-    <link rel="canonical" href="https://seraaqua.com/terms.html">
+    <link rel="canonical" href="https://seraaqua.com/privacy-policy.php">
     <link rel="icon" href="data:,">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,19 +19,20 @@
 </head>
 <body>
     <main id="main-content" class="container" style="padding-block: 4rem;">
-        <h1>Terms</h1>
-        <p>Terms of use for this website. Final Terms content to be supplied.</p>
+        <h1>Privacy Policy</h1>
+        <p>This privacy policy describes how Serra Aqua Rivar Industries Pvt Ltd handles information collected through this website. Details to be supplied with final policy text.</p>
     </main>
     <footer class="sera-footer">
         <div class="container">
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
                 <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
-                <span class="d-flex gap-3"><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a></span>
+                <span class="d-flex gap-3"><a href="privacy-policy.php">Privacy Policy</a><a href="terms.php">Terms</a></span>
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
 
 

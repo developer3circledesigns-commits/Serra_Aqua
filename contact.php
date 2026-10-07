@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products | Serra Aqua Rivar Industries Pvt Ltd</title>
-    <meta name="description" content="Packaged drinking water products from Serra Aqua Rivar Industries Pvt Ltd — 20 L, 2 L, 1 L, 500 ml and 300 ml pack sizes for homes, offices and institutions.">
+    <title>Contact | Serra Aqua Rivar Industries Pvt Ltd</title>
+    <meta name="description" content="Contact Serra Aqua Rivar Industries Pvt Ltd for packaged drinking water enquiries, corporate supply, and delivery scheduling.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#004F4A">
-    <link rel="canonical" href="https://seraaqua.com/products.html">
+    <link rel="canonical" href="https://seraaqua.com/contact.php">
     <link rel="icon" href="data:,">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +45,7 @@
     </div>
     <nav class="navbar navbar-expand-xl sera-navbar sticky-top" data-sera-navbar aria-label="Main navigation">
         <div class="container sera-navbar-inner">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <span class="brand-mark" aria-hidden="true"><i class="bi bi-droplet-fill"></i></span>
                 <span class="brand-text">
                     <span class="brand-name">Serra Aqua</span>
@@ -57,8 +57,8 @@
             </button>
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav ms-auto align-items-xl-center" data-mega-nav>
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                     <li class="nav-item nav-item--panel" data-mega>
                         <button class="nav-link nav-link--trigger" type="button" data-mega-trigger aria-expanded="false" aria-controls="megaProcess">Process<i class="bi bi-chevron-down nav-caret" aria-hidden="true"></i></button>
                         <div class="mega-panel" id="megaProcess" data-mega-panel hidden>
@@ -68,31 +68,31 @@
                                         <p class="label">Purification</p>
                                         <h2 class="mega-title">Ten controlled stages</h2>
                                         <p class="mega-copy">Source water is treated as a controlled sequence rather than a single filter step.</p>
-                                        <a class="mega-cta-link" href="process.html">Explore the full process<i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                                        <a class="mega-cta-link" href="process.php">Explore the full process<i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="mega-col">
                                         <p class="mega-col-title">Pre-treatment</p>
                                         <ul class="mega-list">
-                                            <li><a class="mega-link" href="process.html#source-water-treatment"><span class="mega-num">01</span><span class="mega-link-title">Source Water Treatment</span></a></li>
-                                            <li><a class="mega-link" href="process.html#sand-filtration"><span class="mega-num">02</span><span class="mega-link-title">Sand Filtration</span></a></li>
-                                            <li><a class="mega-link" href="process.html#activated-carbon-filtration"><span class="mega-num">03</span><span class="mega-link-title">Activated Carbon Filtration</span></a></li>
-                                            <li><a class="mega-link" href="process.html#micron-filtration"><span class="mega-num">04</span><span class="mega-link-title">Micron Filtration</span></a></li>
+                                            <li><a class="mega-link" href="process.php#source-water-treatment"><span class="mega-num">01</span><span class="mega-link-title">Source Water Treatment</span></a></li>
+                                            <li><a class="mega-link" href="process.php#sand-filtration"><span class="mega-num">02</span><span class="mega-link-title">Sand Filtration</span></a></li>
+                                            <li><a class="mega-link" href="process.php#activated-carbon-filtration"><span class="mega-num">03</span><span class="mega-link-title">Activated Carbon Filtration</span></a></li>
+                                            <li><a class="mega-link" href="process.php#micron-filtration"><span class="mega-num">04</span><span class="mega-link-title">Micron Filtration</span></a></li>
                                         </ul>
                                     </div>
                                     <div class="mega-col">
                                         <p class="mega-col-title">Core Purification</p>
                                         <ul class="mega-list">
-                                            <li><a class="mega-link" href="process.html#reverse-osmosis"><span class="mega-num">05</span><span class="mega-link-title">Reverse Osmosis</span></a></li>
-                                            <li><a class="mega-link" href="process.html#uv-sterilization"><span class="mega-num">06</span><span class="mega-link-title">UV Sterilization</span></a></li>
-                                            <li><a class="mega-link" href="process.html#ozonation"><span class="mega-num">07</span><span class="mega-link-title">Ozonation</span></a></li>
+                                            <li><a class="mega-link" href="process.php#reverse-osmosis"><span class="mega-num">05</span><span class="mega-link-title">Reverse Osmosis</span></a></li>
+                                            <li><a class="mega-link" href="process.php#uv-sterilization"><span class="mega-num">06</span><span class="mega-link-title">UV Sterilization</span></a></li>
+                                            <li><a class="mega-link" href="process.php#ozonation"><span class="mega-num">07</span><span class="mega-link-title">Ozonation</span></a></li>
                                         </ul>
                                     </div>
                                     <div class="mega-col">
                                         <p class="mega-col-title">Post-treatment</p>
                                         <ul class="mega-list">
-                                            <li><a class="mega-link" href="process.html#mineral-tds-ph-balancing"><span class="mega-num">08</span><span class="mega-link-title">Mineral / TDS / pH Balancing</span></a></li>
-                                            <li><a class="mega-link" href="process.html#hygienic-storage"><span class="mega-num">09</span><span class="mega-link-title">Hygienic Storage</span></a></li>
-                                            <li><a class="mega-link" href="process.html#automated-bottling-sealing"><span class="mega-num">10</span><span class="mega-link-title">Automated Bottling &amp; Sealing</span></a></li>
+                                            <li><a class="mega-link" href="process.php#mineral-tds-ph-balancing"><span class="mega-num">08</span><span class="mega-link-title">Mineral / TDS / pH Balancing</span></a></li>
+                                            <li><a class="mega-link" href="process.php#hygienic-storage"><span class="mega-num">09</span><span class="mega-link-title">Hygienic Storage</span></a></li>
+                                            <li><a class="mega-link" href="process.php#automated-bottling-sealing"><span class="mega-num">10</span><span class="mega-link-title">Automated Bottling &amp; Sealing</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@
                         </div>
                     </li>
                     <li class="nav-item nav-item--panel" data-mega>
-                        <button class="nav-link nav-link--trigger active" type="button" data-mega-trigger aria-expanded="false" aria-controls="megaProducts" aria-current="page">Products<i class="bi bi-chevron-down nav-caret" aria-hidden="true"></i></button>
+                        <button class="nav-link nav-link--trigger" type="button" data-mega-trigger aria-expanded="false" aria-controls="megaProducts">Products<i class="bi bi-chevron-down nav-caret" aria-hidden="true"></i></button>
                         <div class="mega-panel" id="megaProducts" data-mega-panel hidden>
                             <div class="container mega-panel-inner">
                                 <div class="mega-grid">
@@ -108,33 +108,33 @@
                                         <p class="label">Product Range</p>
                                         <h2 class="mega-title">Pack sizes for every need</h2>
                                         <p class="mega-copy">From 20 litre jars for bulk use to convenient bottles for on-the-go requirements.</p>
-                                        <a class="mega-cta-link" href="products.html">View all products<i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                                        <a class="mega-cta-link" href="products.php">View all products<i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                                     </div>
                                     <div class="mega-col">
                                         <p class="mega-col-title">Bulk Packs</p>
-                                        <ul class="mega-list"><li><a class="mega-link" href="20l-water.html"><span class="mega-link-title">20 L Water Jar</span></a></li></ul>
+                                        <ul class="mega-list"><li><a class="mega-link" href="20l-water.php"><span class="mega-link-title">20 L Water Jar</span></a></li></ul>
                                     </div>
                                     <div class="mega-col">
                                         <p class="mega-col-title">Family Packs</p>
                                         <ul class="mega-list">
-                                            <li><a class="mega-link" href="2l-water.html"><span class="mega-link-title">2 L Water Bottle</span></a></li>
-                                            <li><a class="mega-link" href="1l-water.html"><span class="mega-link-title">1 L Water Bottle</span></a></li>
+                                            <li><a class="mega-link" href="2l-water.php"><span class="mega-link-title">2 L Water Bottle</span></a></li>
+                                            <li><a class="mega-link" href="1l-water.php"><span class="mega-link-title">1 L Water Bottle</span></a></li>
                                         </ul>
                                     </div>
                                     <div class="mega-col">
                                         <p class="mega-col-title">On-the-Go</p>
                                         <ul class="mega-list">
-                                            <li><a class="mega-link" href="500ml-water.html"><span class="mega-link-title">500 ml Water Bottle</span></a></li>
-                                            <li><a class="mega-link" href="300ml-water.html"><span class="mega-link-title">300 ml Water Bottle</span></a></li>
+                                            <li><a class="mega-link" href="500ml-water.php"><span class="mega-link-title">500 ml Water Bottle</span></a></li>
+                                            <li><a class="mega-link" href="300ml-water.php"><span class="mega-link-title">300 ml Water Bottle</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="corporate-water-supply.html">Corporate Supply</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="corporate-water-supply.php">Corporate Supply</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.php">Contact</a></li>
                     <li class="nav-item nav-item--cta">
                         <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquire Now</button>
                     </li>
@@ -143,19 +143,42 @@
         </div>
     </nav>
     <main id="main-content">
-        <section class="section section--tint-1" aria-labelledby="products-hero-heading">
+        <section class="section section--tint-1" aria-labelledby="contact-hero-heading">
             <div class="container">
                 <div class="section-head" data-reveal>
-                    <p class="label">Our Products</p>
-                    <h1 id="products-hero-heading">Packaged Drinking Water Solutions</h1>
-                    <p>Choose from our five pack sizes — purified, balanced and hygienically sealed.</p>
+                    <p class="label">Contact</p>
+                    <h1 id="contact-hero-heading">Get In Touch</h1>
+                    <p>Reach us for product enquiries, corporate supply plans, and delivery scheduling.</p>
                 </div>
-                <div class="row g-4 align-items-stretch">
-                    <div class="col-md-6 col-lg-4" data-reveal><article class="feature-card h-100"><i class="bi bi-cup" aria-hidden="true"></i><h3>20 L Water Jar</h3><p>Everyday home and office supply on scheduled or bulk requirements.</p><a class="mega-cta-link" href="20l-water.html">View details →</a></article></div>
-                    <div class="col-md-6 col-lg-4" data-reveal><article class="feature-card h-100"><i class="bi bi-cup-straw" aria-hidden="true"></i><h3>2 L Water Bottle</h3><p>Family-sized bottle for daily table use.</p><a class="mega-cta-link" href="2l-water.html">View details →</a></article></div>
-                    <div class="col-md-6 col-lg-4" data-reveal><article class="feature-card h-100"><i class="bi bi-cup-hot" aria-hidden="true"></i><h3>1 L Water Bottle</h3><p>Standard office and retail bottle.</p><a class="mega-cta-link" href="1l-water.html">View details →</a></article></div>
-                    <div class="col-md-6 col-lg-4" data-reveal><article class="feature-card h-100"><i class="bi bi-cup" aria-hidden="true"></i><h3>500 ml Water Bottle</h3><p>Meeting-table and visitor refreshment size.</p><a class="mega-cta-link" href="500ml-water.html">View details →</a></article></div>
-                    <div class="col-md-6 col-lg-4" data-reveal><article class="feature-card h-100"><i class="bi bi-cup-hot" aria-hidden="true"></i><h3>300 ml Water Bottle</h3><p>Individual serving size for events and travel.</p><a class="mega-cta-link" href="300ml-water.html">View details →</a></article></div>
+            </div>
+        </section>
+        <section class="section" aria-labelledby="contact-info-heading">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5" data-reveal>
+                        <h2 id="contact-info-heading">Contact Details</h2>
+                        <ul class="spec-list">
+                            <li><span class="spec-key">Phone</span><span class="spec-value">+91 7708108846 / +91 7708108845</span></li>
+                            <li><span class="spec-key">Email</span><span class="spec-value">info@seraaqua.com</span></li>
+                            <li><span class="spec-key">WhatsApp</span><span class="spec-value">+91 7708108846</span></li>
+                            <li><span class="spec-key">Hours</span><span class="spec-value">Mon–Sat, 9 AM–7 PM</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7" data-reveal>
+                        <h2>Send an Enquiry</h2>
+                        <form action="forms/contact-submit.php" method="post" data-ajax-form novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6"><label class="form-label">Full Name *</label><input type="text" class="form-control" name="name" required></div>
+                                <div class="col-md-6"><label class="form-label">Email *</label><input type="email" class="form-control" name="email" required></div>
+                                <div class="col-md-6"><label class="form-label">Phone *</label><input type="tel" class="form-control" name="phone" required></div>
+                                <div class="col-md-6"><label class="form-label">Subject *</label><input type="text" class="form-control" name="subject" required></div>
+                                <div class="col-12"><label class="form-label">Message *</label><textarea class="form-control" name="message" rows="5" required></textarea></div>
+                            </div>
+                            <div class="d-flex flex-wrap justify-content-end gap-3 mt-4">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -175,23 +198,23 @@
                 <div class="col-lg-3">
                     <h2 class="footer-title">Quick Links</h2>
                     <ul class="footer-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="process.html">Purification Process</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="corporate-water-supply.html">Corporate Supply</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="process.php">Purification Process</a></li>
+                        <li><a href="products.php">Products</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="corporate-water-supply.php">Corporate Supply</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2">
                     <h2 class="footer-title">Products</h2>
                     <ul class="footer-list">
-                        <li><a href="20l-water.html">20 L Water Jar</a></li>
-                        <li><a href="2l-water.html">2 L Water Bottle</a></li>
-                        <li><a href="1l-water.html">1 L Water Bottle</a></li>
-                        <li><a href="500ml-water.html">500 ml Water Bottle</a></li>
-                        <li><a href="300ml-water.html">300 ml Water Bottle</a></li>
+                        <li><a href="20l-water.php">20 L Water Jar</a></li>
+                        <li><a href="2l-water.php">2 L Water Bottle</a></li>
+                        <li><a href="1l-water.php">1 L Water Bottle</a></li>
+                        <li><a href="500ml-water.php">500 ml Water Bottle</a></li>
+                        <li><a href="300ml-water.php">300 ml Water Bottle</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2">
@@ -204,7 +227,7 @@
             </div>
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
                 <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
-                <span class="d-flex gap-3"><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a></span>
+                <span class="d-flex gap-3"><a href="privacy-policy.php">Privacy Policy</a><a href="terms.php">Terms</a></span>
             </div>
         </div>
     </footer>
@@ -215,7 +238,7 @@
                 <div class="modal-body">
                     <div data-form-alert class="mb-3"></div>
                     <form action="forms/enquiry-submit.php" method="post" data-ajax-form novalidate>
-                        <input type="hidden" name="source" value="products-enquiry-modal">
+                        <input type="hidden" name="source" value="contact-enquiry-modal">
                         <div class="row g-3">
                             <div class="col-md-6"><label class="form-label">Full Name *</label><input type="text" class="form-control" name="name" required></div>
                             <div class="col-md-6"><label class="form-label">Phone *</label><input type="tel" class="form-control" name="phone" required></div>
@@ -250,5 +273,6 @@
     <script src="assets/js/main.js"></script>
 </body>
 </html>
+
 
 

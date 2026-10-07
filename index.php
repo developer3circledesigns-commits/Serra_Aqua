@@ -128,7 +128,7 @@
 
     <nav class="navbar navbar-expand-xl sera-navbar sticky-top" data-sera-navbar aria-label="Main navigation">
         <div class="container sera-navbar-inner">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <span class="brand-mark" aria-hidden="true">
                     <i class="bi bi-droplet-fill"></i>
                 </span>
@@ -147,11 +147,11 @@
                 <ul class="navbar-nav ms-auto align-items-xl-center" data-mega-nav>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="about.php">About</a>
                     </li>
 
                     <li class="nav-item nav-item--panel" data-mega>
@@ -169,7 +169,7 @@
                                         <h2 class="mega-title">Ten controlled stages</h2>
                                         <p class="mega-copy">Source water is treated as a controlled sequence rather
                                             than a single filter step. Each stage exists to protect the one after it.</p>
-                                        <a class="mega-cta-link" href="process.html">
+                                        <a class="mega-cta-link" href="process.php">
                                             Explore the full process
                                             <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                         </a>
@@ -179,25 +179,25 @@
                                         <p class="mega-col-title">Pre-treatment</p>
                                         <ul class="mega-list">
                                             <li>
-                                                <a class="mega-link" href="process.html#source-water-treatment">
+                                                <a class="mega-link" href="process.php#source-water-treatment">
                                                     <span class="mega-num">01</span>
                                                     <span class="mega-link-title">Source Water Treatment</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.html#sand-filtration">
+                                                <a class="mega-link" href="process.php#sand-filtration">
                                                     <span class="mega-num">02</span>
                                                     <span class="mega-link-title">Sand Filtration</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.html#activated-carbon-filtration">
+                                                <a class="mega-link" href="process.php#activated-carbon-filtration">
                                                     <span class="mega-num">03</span>
                                                     <span class="mega-link-title">Activated Carbon Filtration</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.html#micron-filtration">
+                                                <a class="mega-link" href="process.php#micron-filtration">
                                                     <span class="mega-num">04</span>
                                                     <span class="mega-link-title">Micron Filtration</span>
                                                 </a>
@@ -209,19 +209,19 @@
                                         <p class="mega-col-title">Core purification</p>
                                         <ul class="mega-list">
                                             <li>
-                                                <a class="mega-link" href="process.html#reverse-osmosis">
+                                                <a class="mega-link" href="process.php#reverse-osmosis">
                                                     <span class="mega-num">05</span>
                                                     <span class="mega-link-title">Reverse Osmosis</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.html#uv-sterilization">
+                                                <a class="mega-link" href="process.php#uv-sterilization">
                                                     <span class="mega-num">06</span>
                                                     <span class="mega-link-title">UV Sterilization</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.html#ozonation">
+                                                <a class="mega-link" href="process.php#ozonation">
                                                     <span class="mega-num">07</span>
                                                     <span class="mega-link-title">Ozonation</span>
                                                 </a>
@@ -233,19 +233,19 @@
                                         <p class="mega-col-title">Finishing &amp; packing</p>
                                         <ul class="mega-list">
                                             <li>
-                                                <a class="mega-link" href="process.html#mineral-balancing">
+                                                <a class="mega-link" href="process.php#mineral-balancing">
                                                     <span class="mega-num">08</span>
                                                     <span class="mega-link-title">Mineral / TDS / pH Balancing</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.html#hygienic-storage">
+                                                <a class="mega-link" href="process.php#hygienic-storage">
                                                     <span class="mega-num">09</span>
                                                     <span class="mega-link-title">Hygienic Storage</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.html#bottling-sealing">
+                                                <a class="mega-link" href="process.php#bottling-sealing">
                                                     <span class="mega-num">10</span>
                                                     <span class="mega-link-title">Automated Bottling &amp; Sealing</span>
                                                 </a>
@@ -257,7 +257,7 @@
                                 <div class="mega-foot">
                                     <p class="mega-foot-text">Filtration staged to protect downstream equipment, with
                                         recorded batch checks before packs reach storage.</p>
-                                    <a class="mega-foot-link" href="corporate-water-supply.html">
+                                    <a class="mega-foot-link" href="corporate-water-supply.php">
                                         Corporate &amp; bulk supply
                                         <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                     </a>
@@ -281,7 +281,7 @@
                                         <h2 class="mega-title">Five pack sizes. One purified source.</h2>
                                         <p class="mega-copy">From a 20 litre jar for the home to a 300 ml bottle for
                                             a meeting table, packed to the same standard every time.</p>
-                                        <a class="mega-cta-link" href="products.html">
+                                        <a class="mega-cta-link" href="products.php">
                                             View all products
                                             <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                         </a>
@@ -292,7 +292,7 @@
                                         <ul class="mega-list">
                                             <li>
                                                 <a class="mega-link mega-link--pack"
-                                                    href="20l-water.html">
+                                                    href="20l-water.php">
                                                     <span class="mega-pack">20<span class="mega-pack-unit">L</span></span>
                                                     <span class="mega-link-body">
                                                         <span class="mega-link-title">Water Jar</span>
@@ -308,7 +308,7 @@
                                         <ul class="mega-list">
                                             <li>
                                                 <a class="mega-link mega-link--pack"
-                                                    href="2l-water.html">
+                                                    href="2l-water.php">
                                                     <span class="mega-pack">2<span class="mega-pack-unit">L</span></span>
                                                     <span class="mega-link-body">
                                                         <span class="mega-link-title">Water Bottle</span>
@@ -318,7 +318,7 @@
                                             </li>
                                             <li>
                                                 <a class="mega-link mega-link--pack"
-                                                    href="1l-water.html">
+                                                    href="1l-water.php">
                                                     <span class="mega-pack">1<span class="mega-pack-unit">L</span></span>
                                                     <span class="mega-link-body">
                                                         <span class="mega-link-title">Water Bottle</span>
@@ -334,7 +334,7 @@
                                         <ul class="mega-list">
                                             <li>
                                                 <a class="mega-link mega-link--pack"
-                                                    href="500ml-water.html">
+                                                    href="500ml-water.php">
                                                     <span class="mega-pack">500<span class="mega-pack-unit">ml</span></span>
                                                     <span class="mega-link-body">
                                                         <span class="mega-link-title">Water Bottle</span>
@@ -344,7 +344,7 @@
                                             </li>
                                             <li>
                                                 <a class="mega-link mega-link--pack"
-                                                    href="300ml-water.html">
+                                                    href="300ml-water.php">
                                                     <span class="mega-pack">300<span class="mega-pack-unit">ml</span></span>
                                                     <span class="mega-link-body">
                                                         <span class="mega-link-title">Water Bottle</span>
@@ -359,7 +359,7 @@
                                 <div class="mega-foot">
                                     <p class="mega-foot-text">Not sure which size fits your requirement? Share the pack
                                         size, quantity and frequency and we will confirm a schedule.</p>
-                                    <a class="btn btn-primary btn-sm" href="order.html">
+                                    <a class="btn btn-primary btn-sm" href="order.php">
                                         Request a quote
                                         <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                     </a>
@@ -369,16 +369,16 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="corporate-water-supply.html">Corporate Supply</a>
+                        <a class="nav-link" href="corporate-water-supply.php">Corporate Supply</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item nav-item--cta">
-                        <a class="btn btn-primary" href="order.html">Enquire Now</a>
+                        <a class="btn btn-primary" href="order.php">Enquire Now</a>
                     </li>
                 </ul>
             </div>
@@ -424,10 +424,10 @@
                                     purified in controlled stages, filled hygienically and delivered on a schedule that suits you.
                                 </p>
                                 <div class="hero-actions">
-                                    <a class="btn btn-primary" href="order.html">
+                                    <a class="btn btn-primary" href="order.php">
                                         Enquire Now <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                     </a>
-                                    <a class="btn btn-outline-primary text-white bg-dark" href="products.html">Explore Products</a>
+                                    <a class="btn btn-outline-primary text-white bg-dark" href="products.php">Explore Products</a>
                                 </div>
                                 <ul class="trust-row text-white">
                                     <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Ten purification stages</li>
@@ -456,8 +456,8 @@
                                     controlled source and packed to the same standard every time.
                                 </p>
                                 <div class="hero-actions">
-                                    <a class="btn btn-primary" href="products.html">View All Products</a>
-                                    <a class="btn btn-outline-primary text-white bg-dark" href="order.html">Enquire Now</a>
+                                    <a class="btn btn-primary" href="products.php">View All Products</a>
+                                    <a class="btn btn-outline-primary text-white bg-dark" href="order.php">Enquire Now</a>
                                 </div>
                                 <ul class="trust-row text-white">
                                     <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 20 litre jar</li>
@@ -487,8 +487,8 @@
                                     storage and automated bottling with sealing.
                                 </p>
                                 <div class="hero-actions">
-                                    <a class="btn btn-primary" href="process.html">Explore Our Process</a>
-                                    <a class="btn btn-outline-primary text-white bg-dark" href="order.html">Enquire Now</a>
+                                    <a class="btn btn-primary" href="process.php">Explore Our Process</a>
+                                    <a class="btn btn-outline-primary text-white bg-dark" href="order.php">Enquire Now</a>
                                 </div>
                                 <ul class="trust-row text-white">
                                     <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Sand, carbon &amp; micron filtration</li>
@@ -517,7 +517,7 @@
                                     pack size, quantity and frequency each customer actually needs.
                                 </p>
                                 <div class="hero-actions">
-                                    <a class="btn btn-primary" href="order.html">
+                                    <a class="btn btn-primary" href="order.php">
                                         <i class="bi bi-send" aria-hidden="true"></i> Request a Quote
                                     </a>
                                     <a class="btn btn-outline-primary text-white bg-dark" data-tel-primary href="#">
@@ -604,7 +604,7 @@
                             sterilization and ozonation — then balanced, stored and filled automatically so that
                             every pack matches the previous one.
                         </p>
-                        <a class="btn btn-outline-primary" href="about.html">
+                        <a class="btn btn-outline-primary" href="about.php">
                             Read More <i class="bi bi-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -759,7 +759,7 @@
                             <td data-label="Packaging">Jar &amp; dispenser</td>
                             <td class="pt-use" data-label="Best For">Everyday home and office supply, on scheduled or bulk requirements with returnable jar handling.</td>
                             <td class="pt-action" data-label="Action">
-                                <a class="btn btn-outline-primary btn-sm" href="order.html" data-enquire-product="20 L Water Jar">Enquire</a>
+                                <a class="btn btn-outline-primary btn-sm" href="order.php" data-enquire-product="20 L Water Jar">Enquire</a>
                             </td>
                         </tr>
                         <tr>
@@ -767,7 +767,7 @@
                             <td data-label="Packaging">Bottle</td>
                             <td class="pt-use" data-label="Best For">Family-sized bottle for daily table use and small group requirements.</td>
                             <td class="pt-action" data-label="Action">
-                                <a class="btn btn-outline-primary btn-sm" href="order.html" data-enquire-product="2 L Water Bottle">Enquire</a>
+                                <a class="btn btn-outline-primary btn-sm" href="order.php" data-enquire-product="2 L Water Bottle">Enquire</a>
                             </td>
                         </tr>
                         <tr>
@@ -775,7 +775,7 @@
                             <td data-label="Packaging">Bottle</td>
                             <td class="pt-use" data-label="Best For">The standard office and retail bottle — easy to store, serve and reorder.</td>
                             <td class="pt-action" data-label="Action">
-                                <a class="btn btn-outline-primary btn-sm" href="order.html" data-enquire-product="1 L Water Bottle">Enquire</a>
+                                <a class="btn btn-outline-primary btn-sm" href="order.php" data-enquire-product="1 L Water Bottle">Enquire</a>
                             </td>
                         </tr>
                         <tr>
@@ -783,7 +783,7 @@
                             <td data-label="Packaging">Bottle</td>
                             <td class="pt-use" data-label="Best For">Meeting-table and visitor refreshment size for offices, clinics and showrooms.</td>
                             <td class="pt-action" data-label="Action">
-                                <a class="btn btn-outline-primary btn-sm" href="order.html" data-enquire-product="500 ml Water Bottle">Enquire</a>
+                                <a class="btn btn-outline-primary btn-sm" href="order.php" data-enquire-product="500 ml Water Bottle">Enquire</a>
                             </td>
                         </tr>
                         <tr>
@@ -791,14 +791,14 @@
                             <td data-label="Packaging">Bottle</td>
                             <td class="pt-use" data-label="Best For">Individual serving size for events, conferences, travel and hotel rooms.</td>
                             <td class="pt-action" data-label="Action">
-                                <a class="btn btn-outline-primary btn-sm" href="order.html" data-enquire-product="300 ml Water Bottle">Enquire</a>
+                                <a class="btn btn-outline-primary btn-sm" href="order.php" data-enquire-product="300 ml Water Bottle">Enquire</a>
                             </td>
                         </tr>
                     </tbody>
                 </table>
 
                 <div class="section-foot" data-reveal>
-                    <a class="btn btn-outline-primary" href="products.html">
+                    <a class="btn btn-outline-primary" href="products.php">
                         View All Products <i class="bi bi-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -869,7 +869,7 @@
                         Licence and certificate numbers are published in each panel. Verified records for Serra
                         Aqua Rivar Industries Pvt Ltd are available on request.
                     </p>
-                    <a class="btn btn-invert btn-sm" href="contact.html">
+                    <a class="btn btn-invert btn-sm" href="contact.php">
                         Request records <i class="bi bi-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -982,7 +982,7 @@
                 </ol>
 
                 <div class="section-foot" data-reveal>
-                    <a class="btn btn-invert" href="process.html">
+                    <a class="btn btn-invert" href="process.php">
                         Explore Our Process <i class="bi bi-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -1169,7 +1169,7 @@
                     </div>
                     <div class="col-lg-4 text-lg-end" data-reveal>
                         <div class="cta-actions justify-content-lg-end">
-                            <a class="btn btn-invert" href="order.html">
+                            <a class="btn btn-invert" href="order.php">
                                 <i class="bi bi-send" aria-hidden="true"></i> Request a Quote
                             </a>
                             <a class="btn btn-outline-invert" data-tel-primary href="#">
@@ -1217,24 +1217,24 @@
                 <div class="col-lg-3">
                     <h2 class="footer-title">Quick Links</h2>
                     <ul class="footer-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="process.html">Purification Process</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="corporate-water-supply.html">Corporate Supply</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="process.php">Purification Process</a></li>
+                        <li><a href="products.php">Products</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="corporate-water-supply.php">Corporate Supply</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2">
                     <h2 class="footer-title">Products</h2>
                     <ul class="footer-list">
-                        <li><a href="20l-water.html">20 L Water Jar</a></li>
-                        <li><a href="2l-water.html">2 L Water Bottle</a></li>
-                        <li><a href="1l-water.html">1 L Water Bottle</a></li>
-                        <li><a href="500ml-water.html">500 ml Water Bottle</a></li>
-                        <li><a href="300ml-water.html">300 ml Water Bottle</a></li>
+                        <li><a href="20l-water.php">20 L Water Jar</a></li>
+                        <li><a href="2l-water.php">2 L Water Bottle</a></li>
+                        <li><a href="1l-water.php">1 L Water Bottle</a></li>
+                        <li><a href="500ml-water.php">500 ml Water Bottle</a></li>
+                        <li><a href="300ml-water.php">300 ml Water Bottle</a></li>
                     </ul>
                 </div>
 
@@ -1256,8 +1256,8 @@
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
                 <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
                 <span class="d-flex gap-3">
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms</a>
+                    <a href="privacy-policy.php">Privacy Policy</a>
+                    <a href="terms.php">Terms</a>
                 </span>
             </div>
         </div>
@@ -1270,7 +1270,7 @@
         <a class="btn btn-outline-primary" href="https://wa.me/917708108846" target="_blank" rel="noopener">
             <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
         </a>
-        <a class="btn btn-primary" href="order.html">
+        <a class="btn btn-primary" href="order.php">
             <i class="bi bi-send" aria-hidden="true"></i> Enquire
         </a>
     </div>
@@ -1344,6 +1344,7 @@
     </script>
 </body>
 </html>
+
 
 
 
