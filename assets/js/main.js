@@ -447,6 +447,25 @@
     });
 
     /* ---------------------------------------------------------------
+       Toggle custom product input when "Custom" is selected
+       --------------------------------------------------------------- */
+    $all('select[name="product"]').forEach(function (select) {
+        select.addEventListener('change', function () {
+            var customInput = select.parentNode.querySelector('.product-custom-input');
+            if (!customInput) {
+                return;
+            }
+            if (select.value === 'Custom') {
+                customInput.style.display = 'block';
+                customInput.focus();
+            } else {
+                customInput.style.display = 'none';
+                customInput.value = '';
+            }
+        });
+    });
+
+    /* ---------------------------------------------------------------
        Generic enquiry / quote AJAX submit
        --------------------------------------------------------------- */
     function setAlert(container, type, message) {

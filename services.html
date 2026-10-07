@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -331,7 +331,11 @@
                             <div class="col-md-6"><label class="form-label" for="enqPhone">Phone *</label><input type="tel" class="form-control" id="enqPhone" name="phone" required autocomplete="tel"><div class="invalid-feedback">Please enter a valid phone number.</div></div>
                             <div class="col-md-6"><label class="form-label" for="enqEmail">Email *</label><input type="email" class="form-control" id="enqEmail" name="email" required autocomplete="email"><div class="invalid-feedback">Please enter a valid email.</div></div>
                             <div class="col-md-6"><label class="form-label" for="enqCompany">Company Name</label><input type="text" class="form-control" id="enqCompany" name="company" autocomplete="organization"></div>
-                            <div class="col-md-6"><label class="form-label" for="enqProduct">Product</label><select class="form-select" id="enqProduct" name="product"><option value="">Select product</option><option value="20 L Water Jar">20 L Water Jar</option><option value="2 L Water Bottle">2 L Water Bottle</option><option value="1 L Water Bottle">1 L Water Bottle</option><option value="500 ml Water Bottle">500 ml Water Bottle</option><option value="300 ml Water Bottle">300 ml Water Bottle</option></select></div>
+                            <div class="col-md-6"><label class="form-label" for="enqProduct">Product</label><select class="form-select" name="product" id="enqProduct">
+                        <option value="">Select product</option><option value="20 L Water Jar">20 L Water Jar</option><option value="2 L Water Bottle">2 L Water Bottle</option><option value="1 L Water Bottle">1 L Water Bottle</option><option value="500 ml Water Bottle">500 ml Water Bottle</option><option value="300 ml Water Bottle">300 ml Water Bottle</option>
+                        <option value="Custom">Custom</option>
+                    </select>
+                    <input type="text" class="form-control mt-2 product-custom-input" name="product_custom" placeholder="Enter custom product" style="display:none;"></div>
                             <div class="col-md-6"><label class="form-label" for="enqQty">Required Quantity</label><input type="text" class="form-control" id="enqQty" name="quantity" placeholder="e.g. 10 jars / 100 bottles"></div>
                             <div class="col-12"><label class="form-label" for="enqLoc">Preferred Delivery Location</label><input type="text" class="form-control" id="enqLoc" name="location"></div>
                             <div class="col-12"><label class="form-label" for="enqMsg">Message</label><textarea class="form-control" id="enqMsg" name="message" rows="4" placeholder="Any specific requirements?"></textarea></div>
@@ -356,6 +360,8 @@
     <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
 
 
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1309,14 +1309,11 @@
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label" for="eqProduct">Product</label>
-                                <select class="form-select" id="eqProduct" name="product">
-                                    <option value="">Select a pack size</option>
-                                    <option>20 L Water Jar</option>
-                                    <option>2 L Water Bottle</option>
-                                    <option>1 L Water Bottle</option>
-                                    <option>500 ml Water Bottle</option>
-                                    <option>300 ml Water Bottle</option>
-                                </select>
+                                <select class="form-select" name="product" id="eqProduct">
+                        <option value="">Select product</option><option value="20 L Water Jar">20 L Water Jar</option><option value="2 L Water Bottle">2 L Water Bottle</option><option value="1 L Water Bottle">1 L Water Bottle</option><option value="500 ml Water Bottle">500 ml Water Bottle</option><option value="300 ml Water Bottle">300 ml Water Bottle</option>
+                        <option value="Custom">Custom</option>
+                    </select>
+                    <input type="text" class="form-control mt-2 product-custom-input" name="product_custom" placeholder="Enter custom product" style="display:none;">
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label" for="eqQty">Required Quantity</label>
@@ -1347,5 +1344,7 @@
     </script>
 </body>
 </html>
+
+
 
 
