@@ -15,7 +15,7 @@
     <meta property="og:title" content="Serra Aqua Rivar Industries Pvt Ltd | Pure Packaged Drinking Water">
     <meta property="og:description" content="Professionally purified packaged drinking water for homes, businesses and institutions. Multi-stage purification, hygienic bottling and scheduled delivery.">
     <meta property="og:url" content="https://seraaqua.com/">
-    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bottled_water_in_Ukraine_20240830_151050.jpg/1280px-Bottled_water_in_Ukraine_20240830_151050.jpg">
+    <meta property="og:image" content="./assets/images/hero_section1.png">
     <meta property="og:image:alt" content="Sealed packs of packaged drinking water">
     <meta name="twitter:card" content="summary_large_image">
 
