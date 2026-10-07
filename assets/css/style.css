@@ -2912,3 +2912,15 @@ img, video, .media img, .media video, .stage-media video, .certification-mark im
         gap: var(--space-4);
     }
 }
+.media--grow {
+    transform: scale(1.15);
+    transform-origin: center center;
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 991.98px) {
+    .media--grow {
+        transform: none;
+    }
+}
