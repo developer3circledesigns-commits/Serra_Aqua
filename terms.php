@@ -26,7 +26,7 @@
         <div class="container">
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
                 <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
-                <span class="d-flex gap-3"><a href="privacy-policy.php">Privacy Policy</a><a href="terms.php">Terms</a></span>
+                <span class="footer-credit">Designed &amp; Developed by Circle Designs</span>
             </div>
         </div>
     </footer>

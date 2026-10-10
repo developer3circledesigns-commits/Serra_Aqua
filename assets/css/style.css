@@ -555,14 +555,39 @@ hr {
     align-items: center;
 }
 
+/* One spacing token drives every horizontal gap in the expanded nav:
+   logo -> first link -> link -> link -> last link -> CTA. The nav no longer
+   uses ms-auto, so nothing here is inflated by leftover container width. */
+.sera-navbar {
+    --nav-gap: var(--space-6);
+}
+
 .navbar-brand {
     display: inline-flex;
     align-items: center;
     gap: 0.625rem;
-    margin-right: var(--space-6);
+    /* Must never shrink: flex-squeeze here distorts the logo's aspect ratio
+       when the nav gets tight at the lower end of the xl range. */
+    flex: none;
+    margin-right: var(--nav-gap);
     padding: 0;
 }
 
+.brand-logo {
+    display: block;
+    flex: none;
+    width: auto;
+    height: 3.25rem;
+    max-width: 100%;
+    object-fit: contain;
+    transition: opacity var(--t);
+}
+
+.navbar-brand:hover .brand-logo {
+    opacity: 0.82;
+}
+
+/* Fallback droplet badge, kept for any markup that still uses it */
 .brand-mark {
     display: inline-flex;
     align-items: center;
@@ -609,8 +634,17 @@ hr {
     color: var(--on-dark-muted);
 }
 
+.footer-logo {
+    display: block;
+    align-self: flex-start;
+    width: auto;
+    height: 4.5rem;
+    max-width: 100%;
+    object-fit: contain;
+}
+
 .sera-navbar .navbar-nav {
-    gap: 0.125rem;
+    gap: var(--nav-gap);
 }
 
 .sera-navbar .navbar-nav .nav-link {
@@ -619,7 +653,9 @@ hr {
     align-items: center;
     gap: 0.375rem;
     min-height: 44px;
-    padding: 0 var(--space-2);
+    /* padding is 0 so the flex gap is the true text-to-text distance;
+       the underline is inset separately below. */
+    padding: 0;
     font-size: var(--text-body);
     font-weight: 500;
     line-height: 1.2;
@@ -635,9 +671,9 @@ hr {
 .sera-navbar .navbar-nav .nav-link::after {
     content: "";
     position: absolute;
-    right: var(--space-2);
+    right: 0;
     bottom: 0.5rem;
-    left: var(--space-2);
+    left: 0;
     height: 2px;
     background: var(--brand);
     transform: scaleX(0);
@@ -691,7 +727,14 @@ hr {
 }
 
 .nav-item--cta {
-    margin-left: var(--space-4);
+    margin-left: 0;
+}
+
+/* Wider CTA so the uppercase label never wraps on the expanded nav */
+.nav-item--cta .btn {
+    min-width: 11.5rem;
+    padding-inline: 1.5rem;
+    white-space: nowrap;
 }
 
 .navbar-toggler {
@@ -931,17 +974,21 @@ hr {
 }
 
 @media (max-width: 1399.98px) {
-    .sera-navbar .navbar-nav {
-        gap: 0;
+    /* The Bootstrap container is pinned at 1140px across this whole band, so
+       the shared token steps down to stay equal on all three gaps while the row
+       still fits. All three gaps stay identical to each other here. */
+    .sera-navbar {
+        --nav-gap: var(--space-5);
     }
 
     .sera-navbar .navbar-nav .nav-link {
-        padding-inline: 0.4375rem;
         font-size: var(--text-sm);
     }
 
-    .nav-item--cta {
-        margin-left: var(--space-3);
+    .nav-item--cta .btn {
+        min-width: 0;
+        padding-inline: var(--space-4);
+        font-size: var(--text-sm);
     }
 }
 
@@ -1025,6 +1072,10 @@ hr {
 @media (max-width: 575.98px) {
     .brand-sub {
         display: none;
+    }
+
+    .brand-logo {
+        height: 2.5rem;
     }
 }
 
@@ -2428,6 +2479,10 @@ padding: 0;
 
 .footer-bottom a:hover {
     color: var(--brand-strong);
+}
+
+.footer-credit {
+    color: var(--ink-muted);
 }
 
 .footer-brand-line {
