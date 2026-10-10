@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Serra Aqua Rivar Industries Pvt Ltd | Pure Packaged Drinking Water</title>
-    <meta name="description" content="Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20L, 2L, 1L, 500ml and 300ml packs for homes, offices and institutions, with multi-stage purification and scheduled delivery.">
+    <meta name="description" content="Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20L, 2L, 1L, 500ml and 250ml packs for homes, offices and institutions, with multi-stage purification and scheduled delivery.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#004F4A">
     <link rel="canonical" href="https://seraaqua.com/">
@@ -38,7 +38,7 @@
           "slogan": "Pure Water. Trusted Quality.",
           "url": "https://seraaqua.com/",
           "email": "info@seraaqua.com",
-          "telephone": "+91-7708108846",
+          "telephone": "+91-7397265829",
           "description": "Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in multiple pack sizes for homes, offices and institutions."
         },
         {
@@ -56,7 +56,7 @@
             {
               "@type": "Question",
               "name": "What water products does Serra Aqua Rivar Industries Pvt Ltd supply?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 300 ml bottles for homes, offices and institutions." }
+              "acceptedAnswer": { "@type": "Answer", "text": "Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and institutions." }
             },
             {
               "@type": "Question",
@@ -106,17 +106,15 @@
                 <li class="top-contact-item">
                     <i class="bi bi-telephone" aria-hidden="true"></i>
                     <span class="top-contact-tag">Customer Support</span>
-                    <a data-tel-primary href="#">+91 7708108846</a>
-                    <span class="top-contact-sep" aria-hidden="true"></span>
-                    <a data-tel-alt href="#">+91 7708108845</a>
-                </li>
+                    <a data-tel-primary href="#">+91 7397265829</a>
+</li>
                 <li class="top-contact-item">
                     <i class="bi bi-envelope" aria-hidden="true"></i>
                     <span class="top-contact-tag">Email</span>
                     <a data-mail href="#">info@seraaqua.com</a>
                 </li>
                 <li class="top-contact-item top-contact-item--end">
-                    <a class="top-contact-whatsapp" href="https://wa.me/917708108846" target="_blank"
+                    <a class="top-contact-whatsapp" href="https://wa.me/9197397265829" target="_blank"
                         rel="noopener">
                         <i class="bi bi-whatsapp" aria-hidden="true"></i>
                         <span>WhatsApp</span>
@@ -141,15 +139,15 @@
                 <ul class="navbar-nav align-items-xl-center" data-mega-nav>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="index.php">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link text-white" href="about.php">About</a>
                     </li>
 
                     <li class="nav-item nav-item--panel" data-mega>
-                        <button class="nav-link nav-link--trigger" type="button" data-mega-trigger
+                        <button class="nav-link nav-link--trigger text-white" type="button" data-mega-trigger
                             aria-expanded="false" aria-controls="megaProcess">
                             Process
                             <i class="bi bi-chevron-down nav-caret" aria-hidden="true"></i>
@@ -227,7 +225,7 @@
                                         <p class="mega-col-title">Finishing &amp; packing</p>
                                         <ul class="mega-list">
                                             <li>
-                                                <a class="mega-link" href="process.php#mineral-balancing">
+                                                <a class="mega-link" href="process.php#mineral-tds-ph-balancing">
                                                     <span class="mega-num">08</span>
                                                     <span class="mega-link-title">Mineral / TDS / pH Balancing</span>
                                                 </a>
@@ -239,7 +237,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="mega-link" href="process.php#bottling-sealing">
+                                                <a class="mega-link" href="process.php#automated-bottling-sealing">
                                                     <span class="mega-num">10</span>
                                                     <span class="mega-link-title">Automated Bottling &amp; Sealing</span>
                                                 </a>
@@ -261,7 +259,7 @@
                     </li>
 
                     <li class="nav-item nav-item--panel" data-mega>
-                        <button class="nav-link nav-link--trigger" type="button" data-mega-trigger
+                        <button class="nav-link nav-link--trigger text-white" type="button" data-mega-trigger
                             aria-expanded="false" aria-controls="megaProducts">
                             Products
                             <i class="bi bi-chevron-down nav-caret" aria-hidden="true"></i>
@@ -273,7 +271,7 @@
                                     <div class="mega-intro">
                                         <p class="label">Pack Sizes</p>
                                         <h2 class="mega-title">Five pack sizes. One purified source.</h2>
-                                        <p class="mega-copy">From a 20 litre jar for the home to a 300 ml bottle for
+                                        <p class="mega-copy">From a 20 litre jar for the home to a 250 ml bottle for
                                             a meeting table, packed to the same standard every time.</p>
                                         <a class="mega-cta-link" href="products.php">
                                             View all products
@@ -338,8 +336,8 @@
                                             </li>
                                             <li>
                                                 <a class="mega-link mega-link--pack"
-                                                    href="300ml-water.php">
-                                                    <span class="mega-pack">300<span class="mega-pack-unit">ml</span></span>
+                                                    href="250ml-water.php">
+                                                    <span class="mega-pack">250<span class="mega-pack-unit">ml</span></span>
                                                     <span class="mega-link-body">
                                                         <span class="mega-link-title">Water Bottle</span>
                                                         <span class="mega-link-note">Servings, events &amp; travel</span>
@@ -363,13 +361,13 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="services.php">Services</a>
+                        <a class="nav-link text-white" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="corporate-water-supply.php">Corporate Supply</a>
+                        <a class="nav-link text-white" href="corporate-water-supply.php">Corporate Supply</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link text-white" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item nav-item--cta">
                         <a class="btn btn-primary" href="order.php">Enquire Now</a>
@@ -446,7 +444,7 @@
                                 <p class="label">Pack Sizes</p>
                                 <h2 class="display">Five Pack Sizes. One Purified Source.</h2>
                                 <p class="hero-lead text-white">
-                                    20 litre jars, and 2 litre, 1 litre, 500 ml and 300 ml bottles — purified from one
+                                    20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles — purified from one
                                     controlled source and packed to the same standard every time.
                                 </p>
                                 <div class="hero-actions">
@@ -456,7 +454,7 @@
                                 <ul class="trust-row text-white">
                                     <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 20 litre jar</li>
                                     <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 2 litre &amp; 1 litre bottles</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 500 ml &amp; 300 ml bottles</li>
+                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 500 ml &amp; 250 ml bottles</li>
                                 </ul>
                             </div>
                         </div>
@@ -573,7 +571,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7" data-reveal>
                         <p class="label">Who We Are</p>
-                        <h2 id="about-heading">About Serra Aqua Rivar Industries Pvt Ltd</h2>
+                        <h2 id="about-heading">About Rivar Industries Pvt Ltd</h2>
                         <p class="lead-text">
                             Pure drinking water made with care, technology and quality control.
                         </p>
@@ -584,7 +582,7 @@
                             </li>
                             <li>
                                 <span class="spec-key">Pack Sizes</span>
-                                <span class="spec-value">Five sizes — 20 L, 2 L, 1 L, 500 ml and 300 ml</span>
+                                <span class="spec-value">Five sizes — 20 L, 2 L, 1 L, 500 ml and 250 ml</span>
                             </li>
                             <li>
                                 <span class="spec-key">Supply</span>
@@ -592,7 +590,7 @@
                             </li>
                         </ul>
                         <p>
-                            Serra Aqua Rivar Industries Pvt Ltd is a packaged drinking water supplier producing 20 litre jars, and 2 litre, 1 litre, 500 ml and 300 ml bottles for homes, offices and
+                            Serra Aqua Rivar Industries Pvt Ltd is a packaged drinking water supplier producing 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and
                             institutions. Source water is treated through a chain of controlled stages — sand
                             filtration, activated carbon filtration, micron filtration, reverse osmosis, UV
                             sterilization and ozonation — then balanced, stored and filled automatically so that
@@ -672,7 +670,7 @@
                     <ul class="marquee__group">
                         <li>Ten Controlled Purification Stages</li>
                         <li>Reverse Osmosis &middot; UV &middot; Ozonation</li>
-                        <li>Five Pack Sizes &middot; 20 L to 300 ml</li>
+                        <li>Five Pack Sizes &middot; 20 L to 250 ml</li>
                         <li>Hygienic Filling &amp; Sealing</li>
                         <li>Scheduled Doorstep Delivery</li>
                         <li>Bulk &amp; Corporate Supply</li>
@@ -681,7 +679,7 @@
                     <ul class="marquee__group" aria-hidden="true">
                         <li>Ten Controlled Purification Stages</li>
                         <li>Reverse Osmosis &middot; UV &middot; Ozonation</li>
-                        <li>Five Pack Sizes &middot; 20 L to 300 ml</li>
+                        <li>Five Pack Sizes &middot; 20 L to 250 ml</li>
                         <li>Hygienic Filling &amp; Sealing</li>
                         <li>Scheduled Doorstep Delivery</li>
                         <li>Bulk &amp; Corporate Supply</li>
@@ -734,7 +732,7 @@
                 <div class="section-head" data-reveal>
                     <p class="label">Pack Sizes</p>
                     <h2 id="products-heading">Our Products</h2>
-                    <p>One purified source, five pack sizes — from a 20 litre jar for the home to a 300 ml bottle for a meeting table.</p>
+                    <p>One purified source, five pack sizes — from a 20 litre jar for the home to a 250 ml bottle for a meeting table.</p>
                 </div>
 
                 <table class="pt-table" data-reveal>
@@ -781,18 +779,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" data-label="Pack Size">300 ml Water Bottle</th>
+                            <th scope="row" data-label="Pack Size">250 ml Water Bottle</th>
                             <td data-label="Packaging">Bottle</td>
                             <td class="pt-use" data-label="Best For">Individual serving size for events, conferences, travel and hotel rooms.</td>
                             <td class="pt-action" data-label="Action">
-                                <a class="btn btn-outline-primary btn-sm" href="order.php" data-enquire-product="300 ml Water Bottle">Enquire</a>
+                                <a class="btn btn-outline-primary btn-sm" href="order.php" data-enquire-product="250 ml Water Bottle">Enquire</a>
                             </td>
                         </tr>
                     </tbody>
                 </table>
 
                 <div class="section-foot" data-reveal>
-                    <a class="btn btn-outline-primary" href="products.php">
+                    <a class="btn btn-outline-primary" href="products.php" id="view-all-products">
                         View All Products <i class="bi bi-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -874,7 +872,7 @@
             <div class="container">
                 <div class="section-head" data-reveal>
                     <p class="label">Why Choose Us</p>
-                    <h2 id="why-heading">Why Choose Serra Aqua Rivar Industries Pvt Ltd</h2>
+                    <h2 id="why-heading">Why Choose Rivar Industries Pvt Ltd</h2>
                     <p>Eight practical reasons customers stay with us — each one a step we can show, not just a promise.</p>
                 </div>
 
@@ -1052,7 +1050,7 @@
                         </h3>
                         <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faqHead1" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 300 ml bottles for homes, offices and institutions.
+                                Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and institutions.
                             </div>
                         </div>
                     </div>
@@ -1192,9 +1190,7 @@
                         <li>
                             <i class="bi bi-telephone" aria-hidden="true"></i>
                             <span>
-                                <a data-tel-primary href="#">+91 7708108846</a><br>
-                                <a data-tel-alt href="#">+91 7708108845</a>
-                            </span>
+                                <a data-tel-primary href="#">+91 7397265829</a></span>
                         </li>
                         <li>
                             <i class="bi bi-envelope" aria-hidden="true"></i>
@@ -1202,7 +1198,7 @@
                         </li>
                         <li>
                             <i class="bi bi-whatsapp" aria-hidden="true"></i>
-                            <a href="https://wa.me/917708108846" target="_blank" rel="noopener">WhatsApp us</a>
+                            <a href="https://wa.me/9197397265829" target="_blank" rel="noopener">WhatsApp us</a>
                         </li>
                     </ul>
                 </div>
@@ -1227,7 +1223,7 @@
                         <li><a href="2l-water.php">2 L Water Bottle</a></li>
                         <li><a href="1l-water.php">1 L Water Bottle</a></li>
                         <li><a href="500ml-water.php">500 ml Water Bottle</a></li>
-                        <li><a href="300ml-water.php">300 ml Water Bottle</a></li>
+                        <li><a href="250ml-water.php">250 ml Water Bottle</a></li>
                     </ul>
                 </div>
 
@@ -1257,7 +1253,7 @@
         <a class="btn btn-outline-primary" data-tel-primary href="#">
             <i class="bi bi-telephone" aria-hidden="true"></i> Call
         </a>
-        <a class="btn btn-outline-primary" href="https://wa.me/917708108846" target="_blank" rel="noopener">
+        <a class="btn btn-outline-primary" href="https://wa.me/9197397265829" target="_blank" rel="noopener">
             <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
         </a>
         <a class="btn btn-primary" href="order.php">
@@ -1300,7 +1296,7 @@
                             <div class="col-md-6">
                                 <label class="form-label" for="eqProduct">Product</label>
                                 <select class="form-select" name="product" id="eqProduct">
-                        <option value="">Select product</option><option value="20 L Water Jar">20 L Water Jar</option><option value="2 L Water Bottle">2 L Water Bottle</option><option value="1 L Water Bottle">1 L Water Bottle</option><option value="500 ml Water Bottle">500 ml Water Bottle</option><option value="300 ml Water Bottle">300 ml Water Bottle</option>
+                        <option value="">Select product</option><option value="20 L Water Jar">20 L Water Jar</option><option value="2 L Water Bottle">2 L Water Bottle</option><option value="1 L Water Bottle">1 L Water Bottle</option><option value="500 ml Water Bottle">500 ml Water Bottle</option><option value="250 ml Water Bottle">250 ml Water Bottle</option>
                         <option value="Custom">Custom</option>
                     </select>
                     <input type="text" class="form-control mt-2 product-custom-input" name="product_custom" placeholder="Enter custom product" style="display:none;">

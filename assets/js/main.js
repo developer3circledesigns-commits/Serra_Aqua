@@ -5,8 +5,7 @@
     'use strict';
 
     var ENQUIRY_ENDPOINT = 'forms/enquiry-submit.php';
-    var PHONE = '+917708108846';
-    var PHONE_ALT = '+917708108845';
+    var PHONE = '+917397265829';
     var EMAIL = 'info@seraaqua.com';
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -419,9 +418,6 @@
        --------------------------------------------------------------- */
     $all('[data-tel-primary]').forEach(function (el) {
         el.setAttribute('href', 'tel:' + PHONE);
-    });
-    $all('[data-tel-alt]').forEach(function (el) {
-        el.setAttribute('href', 'tel:' + PHONE_ALT);
     });
     $all('[data-mail]').forEach(function (el) {
         el.setAttribute('href', 'mailto:' + EMAIL);

@@ -480,20 +480,6 @@ hr {
     color: var(--on-dark);
 }
 
-.top-contact-list a + .top-contact-sep + a,
-.top-contact-list a + .top-contact-sep + a:hover {
-    color: var(--on-dark-muted);
-    font-weight: 400;
-}
-
-/* Hairline divider between the two support numbers, never a middot glyph —
-   it keeps the bar's rhythm on the same 1px scale as the rest of the chrome. */
-.top-contact-sep {
-    width: 1px;
-    height: 0.75rem;
-    background: var(--line-dark);
-}
-
 .top-contact-whatsapp {
     display: inline-flex;
     align-items: center;
@@ -541,13 +527,11 @@ hr {
    -------------------------------------------------------------------------- */
 .sera-navbar {
     padding-block: var(--space-3);
-    background: var(--surface);
-    border-bottom: 1px solid var(--line);
-    transition: border-color var(--t);
-}
-
-.sera-navbar.is-scrolled {
-    border-bottom-color: var(--line-strong);
+    background: #00295d;
+    /* No bottom rule: the masthead meets the content below it as one flat navy
+       field. The .is-scrolled hook that used to deepen this border is dropped
+       along with it, since its only effect was border-bottom-color. */
+    border-bottom: 0;
 }
 
 .sera-navbar-inner {
@@ -1359,6 +1343,40 @@ padding: 0;
     margin-bottom: var(--space-6);
 }
 
+/* Hero primary CTA: navy rather than the green accent.
+
+   Scoped to .hero-actions so the accent survives everywhere else — the footer
+   CTA, the mobile call bar and the enquiry modal all keep the green
+   .btn-primary. Label contrast is 14.2:1 white-on-navy in both hero variants. */
+.hero-actions .btn-primary {
+    background: #00295d;
+    border-color: #00295d;
+    color: var(--on-dark);
+}
+
+.hero-actions .btn-primary:hover,
+.hero-actions .btn-primary:focus {
+    background: #001a3f;
+    border-color: #001a3f;
+    color: var(--on-dark);
+}
+
+/* The home carousel lays its hero over a near-black scrim, where a navy fill
+   measures only ~1.3:1 against its surroundings and the button's edge would
+   all but disappear — worse than the green it replaces, at ~1.9:1. The light
+   hairline restores the silhouette at 14.2:1.
+
+   Scoped to .hero-slide only: the inner-page heroes sit on --surface-1, where
+   the navy already reads at 14.2:1 and a white border would be invisible. */
+.hero-slide .btn-primary {
+    border-color: rgba(255, 255, 255, 0.45);
+}
+
+.hero-slide .btn-primary:hover,
+.hero-slide .btn-primary:focus {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
 .trust-row {
     display: flex;
     flex-wrap: wrap;
@@ -1412,7 +1430,7 @@ padding: 0;
    11. Stats
    -------------------------------------------------------------------------- */
 .stats-band {
-    background: var(--brand-deep);
+    background: #00295d;
     color: var(--on-dark);
 }
 
@@ -1641,7 +1659,7 @@ padding: 0;
    -------------------------------------------------------------------------- */
 .marquee-band {
     padding-block: var(--space-5);
-    background: var(--brand-deep);
+    background: #00295d;
     color: var(--on-dark);
 }
 
@@ -1811,7 +1829,7 @@ padding: 0;
    ratio works and no CSS changes.
    -------------------------------------------------------------------------- */
 .certifications-band {
-    background: var(--brand-deep);
+    background: #00295d;
     color: var(--on-dark-muted);
 }
 
@@ -2176,7 +2194,7 @@ padding: 0;
    17. Process
    -------------------------------------------------------------------------- */
 .process-band {
-    background: var(--brand-deep);
+    background: #00295d;
     color: var(--on-dark);
 }
 
@@ -2375,19 +2393,65 @@ padding: 0;
    -------------------------------------------------------------------------- */
 .cta-band {
     padding-block: var(--section-y);
-    background: linear-gradient(120deg, var(--band-mid) 0%, var(--brand-deep) 55%, var(--band-deep) 100%);
-    color: var(--on-dark);
+    background: #BFE3F2;
+    color: var(--ink);
 }
 
+/* This band is now a LIGHT ground, so every dark-band rule in it has to be
+   re-declared against light-surface ink. Measured on #BFE3F2:
+     --ink          #173331  10.0:1   heading and body
+     --ink-muted-tint        5.8:1    supporting copy (--ink-muted is 3.5:1 and fails)
+     --brand-strong  #006b63  4.7:1   accent label, clears AA for 12px uppercase
+     navy         #00295d 10.5:1   the two buttons
+   White would be 1.4:1 here, so the old on-dark tokens are all unusable. */
 .cta-band h2 {
-    color: var(--on-dark);
+    color: var(--ink);
     margin-bottom: var(--space-3);
 }
 
 .cta-band p {
     max-width: 56ch;
     margin-bottom: 0;
-    color: var(--on-dark-muted);
+    color: var(--ink-muted-tint);
+}
+
+/* .label--on-dark is a light teal that vanishes on this fill. */
+.cta-band .label--on-dark {
+    color: var(--brand-strong);
+}
+
+/* The invert pair was built for a dark ground: a white fill and a white hairline
+   both disappear against the light blue. Restated as navy-on-light.
+
+   This one rule covers all ten "Request a Quote" buttons in the band (index,
+   about, process, services, corporate supply and the five pack-size pages).
+   It is deliberately NOT applied to the .btn-invert buttons that sit on the
+   navy process-band and certifications-band — a navy fill there would vanish
+   against the band it sits on. */
+.cta-band .btn-invert {
+    background: #00295d;
+    border-color: #00295d;
+    color: var(--on-dark);
+}
+
+.cta-band .btn-invert:hover,
+.cta-band .btn-invert:focus {
+    background: #001a3f;
+    border-color: #001a3f;
+    color: var(--on-dark);
+}
+
+.cta-band .btn-outline-invert {
+    background: transparent;
+    border-color: #00295d;
+    color: #00295d;
+}
+
+.cta-band .btn-outline-invert:hover,
+.cta-band .btn-outline-invert:focus {
+    background: #00295d;
+    border-color: #00295d;
+    color: var(--on-dark);
 }
 
 .cta-actions {
@@ -2407,8 +2471,27 @@ padding: 0;
    -------------------------------------------------------------------------- */
 .sera-footer {
     padding-block: var(--section-y) var(--space-5);
-    background: var(--surface);
-    border-top: 1px solid var(--line);
+    background: #00295d;
+    color: var(--on-dark);
+    border-top: 1px solid var(--line-dark);
+
+    /* The footer copy is authored against the light surface, so its rules reach
+       for --ink / --ink-muted / --line. Remapped to the dark-band set here, the
+       same way .top-contact-bar does it, so the links and labels survive the
+       navy fill instead of dropping to roughly 2.3:1. */
+    --ink: var(--on-dark);
+    --ink-muted: var(--on-dark-muted);
+    --line: var(--line-dark);
+}
+
+/* Hover was --brand-strong (#006b63), which is ~1.7:1 on navy. */
+.sera-footer .footer-list a:hover,
+.sera-footer .footer-bottom a:hover {
+    color: var(--on-dark-accent);
+}
+
+.sera-footer .footer-contact i {
+    color: var(--on-dark-accent);
 }
 
 .footer-title {
