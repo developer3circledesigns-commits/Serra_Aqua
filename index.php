@@ -1265,7 +1265,7 @@
         </a>
     </div>
 
-    <button class="to-top" type="button" data-to-top aria-label="Back to top">
+    <button class="to-top bg-success text-white" type="button" data-to-top aria-label="Back to top">
         <i class="bi bi-arrow-up" aria-hidden="true"></i>
     </button>
 
