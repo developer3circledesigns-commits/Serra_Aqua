@@ -480,19 +480,17 @@ hr {
     color: var(--on-dark);
 }
 
+/* Plain link in the contact row — no box: icon + label only */
 .top-contact-whatsapp {
     display: inline-flex;
     align-items: center;
     gap: 0.4375rem;
-    padding: 0.25rem 0.625rem;
-    border: 1px solid var(--line-dark);
-    border-radius: var(--radius-control);
+    padding: 0;
+    border: 0;
 }
 
 .top-contact-whatsapp:hover {
-    border-color: var(--on-dark-accent);
-    background: rgba(255, 255, 255, 0.06);
-    color: var(--on-dark-accent);
+    background: transparent;
 }
 
 .top-contact-whatsapp i {

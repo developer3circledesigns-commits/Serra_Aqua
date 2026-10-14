@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -497,7 +497,7 @@
                     </div>
                     <div class="col-lg-5" data-reveal>
                         <figure class="media">
-                            <img src="./assets/images/hero_section4.png"
+                            <img src="./assets/images/rivar.png"
                                 alt="Serra Aqua Rivar Industries bottling facility with treatment and filling lines"
                                 width="1280" height="720" loading="lazy">
                         </figure>
