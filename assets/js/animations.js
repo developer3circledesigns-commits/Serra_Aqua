@@ -1,4 +1,4 @@
-/* SERRA AQUA RIVAR INDUSTRIES PVT LTD — animations.js
+/* SERRA AQUA Rivar Industries — animations.js
    Opacity-only scroll reveal. No counters, no progress bar, no transforms. */
 
 (function () {

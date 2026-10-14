@@ -1,5 +1,5 @@
 /* ==========================================================================
-   SERRA AQUA RIVAR INDUSTRIES PVT LTD — style.css
+   SERRA AQUA Rivar Industries — style.css
    Flat clean-editorial design system.
    Rules: no decorative gradients, no blobs, no glassmorphism, no shadows on
    surfaces, no pills, no lift-on-hover. Hierarchy comes from type scale,
@@ -31,7 +31,7 @@
     --surface-4: #eaf7f5;
     --surface-5: #eef6f5;
 
-    --band-mid: #00554f;
+    --band-mid: #4390e7;
     --band-deep: #043f3c;
 
     --surface: var(--surface-0);
@@ -461,7 +461,7 @@ hr {
 }
 
 .top-contact-item i {
-    color: var(--on-dark-accent);
+    color: #25d366;
     font-size: 0.8125rem;
 }
 
@@ -496,6 +496,7 @@ hr {
 }
 
 .top-contact-whatsapp i {
+    color: #25d366;
     font-size: 0.8125rem;
 }
 
@@ -719,6 +720,14 @@ hr {
     min-width: 11.5rem;
     padding-inline: 1.5rem;
     white-space: nowrap;
+    background: #4390e7;
+    border-color: #4390e7;
+}
+
+.nav-item--cta .btn:hover,
+.nav-item--cta .btn:focus {
+    background: #2f7ad0;
+    border-color: #2f7ad0;
 }
 
 .navbar-toggler {
@@ -1283,6 +1292,10 @@ padding: 0;
     color: var(--brand-strong);
 }
 
+.hero-control--pause {
+    display: none;
+}
+
 @media (max-width: 767.98px) {
     .hero-slide-content {
         max-width: none;
@@ -1309,6 +1322,31 @@ padding: 0;
    .hero-lead and .trust-row resolve through this token. */
 .hero-slide--photo {
     --on-dark-muted: rgba(255, 255, 255, 0.88);
+}
+
+/* Image-only hero slides.
+
+   These slides carry their headline, body copy and CTA inside the artwork
+   itself, so there is no .hero-slide-content overlay, no .hero-slide-scrim and
+   no carousel-indicators — the dots are part of the picture. Only the prev /
+   next / pause controls are live UI, and those are light pills that stay
+   legible against the artwork. */
+.hero-carousel--image .hero-slide {
+    padding-block: 0;
+    background-color: var(--surface-0);
+}
+
+.hero-carousel--image .hero-slide-bg {
+    object-position: center center;
+}
+
+/* On a portrait viewport a 16:9 cover crop keeps only about a third of the
+   width. Anchoring left holds the baked-in headline and CTA in frame instead
+   of centring on the bottles and losing the copy. */
+@media (max-width: 767.98px) {
+    .hero-carousel--image .hero-slide-bg {
+        object-position: left center;
+    }
 }
 
 .hero-slide--photo .hero-slide-content .label {

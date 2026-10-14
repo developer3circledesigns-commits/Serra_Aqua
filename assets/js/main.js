@@ -1,4 +1,4 @@
-/* SERRA AQUA RIVAR INDUSTRIES PVT LTD — main.js
+/* SERRA AQUA Rivar Industries — main.js
    Navbar behaviour, back to top, product enquiry modal, form UX */
 
 (function () {
@@ -300,68 +300,21 @@
     /* ---------------------------------------------------------------
        Hero carousel — autoplay, manual controls and a pause toggle.
 
+       The slides are static images, so there is no per-slide media to sync
+       the way the former background videos needed.
+
        Order matters: data-bs-ride="carousel" starts the cycle inside the
        Bootstrap Carousel constructor, so the instance has to exist before
        we pause it. The global prefers-reduced-motion rule only shortens
        transitions, it does not stop JS-driven autoplay, so leaving the
        cycle running would be a WCAG 2.2.2 failure for those users.
-       Manual prev / next / indicator clicks still work when paused.
+       Manual prev / next clicks still work when paused.
        --------------------------------------------------------------- */
     var heroCarousel = $('[data-hero-carousel]');
 
     if (heroCarousel && window.bootstrap) {
         var carousel = window.bootstrap.Carousel.getOrCreateInstance(heroCarousel);
         var pauseToggle = $('[data-carousel-pause]', heroCarousel);
-        var slideVideos = Array.prototype.slice.call(heroCarousel.querySelectorAll('.hero-slide-bg'));
-
-        /* Videos carry data-src rather than src so nothing is fetched until a
-           slide is actually shown; the poster paints in the meantime. Only the
-           active slide is left playing — four simultaneous decoders is a real
-           cost on low-power devices. reduceMotion keeps the poster only. */
-        function playSlideVideo(video) {
-            if (!video) {
-                return;
-            }
-
-            if (!video.getAttribute('src')) {
-                video.setAttribute('src', video.getAttribute('data-src'));
-                video.load();
-            }
-
-            if (reduceMotion) {
-                return;
-            }
-
-            var attempt = video.play();
-
-            if (attempt && typeof attempt.catch === 'function') {
-                attempt.catch(function () {
-                    /* Autoplay refused: the poster stays visible, which is an
-                       acceptable fallback and must not surface as an error. */
-                });
-            }
-        }
-
-        function syncSlideVideos() {
-            var activeItem = heroCarousel.querySelector('.carousel-item.active');
-
-            slideVideos.forEach(function (video) {
-                var isActive = !!activeItem && activeItem.contains(video);
-
-                if (isActive) {
-                    playSlideVideo(video);
-                } else {
-                    video.pause();
-                }
-            });
-        }
-
-        heroCarousel.addEventListener('slid.bs.carousel', syncSlideVideos);
-
-        /* syncSlideVideos must also run once up front: with the cycle paused for
-           reduceMotion no slid event ever fires, and slide 1 would otherwise
-           never get its src. */
-        syncSlideVideos();
 
         function setPausedState(paused) {
             if (!pauseToggle) {

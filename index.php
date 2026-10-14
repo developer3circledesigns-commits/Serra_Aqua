@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Serra Aqua Rivar Industries Pvt Ltd | Pure Packaged Drinking Water</title>
-    <meta name="description" content="Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20L, 2L, 1L, 500ml and 250ml packs for homes, offices and institutions, with multi-stage purification and scheduled delivery.">
+    <title>Serra Aqua Rivar Industries | Pure Packaged Drinking Water</title>
+    <meta name="description" content="Serra Aqua Rivar Industries supplies purified packaged drinking water in 20L, 2L, 1L, 500ml and 250ml packs for homes, offices and institutions, with multi-stage purification and scheduled delivery.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#004F4A">
     <link rel="canonical" href="https://seraaqua.com/">
 
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Serra Aqua Rivar Industries Pvt Ltd">
-    <meta property="og:title" content="Serra Aqua Rivar Industries Pvt Ltd | Pure Packaged Drinking Water">
+    <meta property="og:site_name" content="Serra Aqua Rivar Industries">
+    <meta property="og:title" content="Serra Aqua Rivar Industries | Pure Packaged Drinking Water">
     <meta property="og:description" content="Professionally purified packaged drinking water for homes, businesses and institutions. Multi-stage purification, hygienic bottling and scheduled delivery.">
     <meta property="og:url" content="https://seraaqua.com/">
     <meta property="og:image" content="./assets/images/hero_section1.png">
@@ -34,18 +34,18 @@
         {
           "@type": "Organization",
           "@id": "https://seraaqua.com/#organization",
-          "name": "Serra Aqua Rivar Industries Pvt Ltd",
+          "name": "Serra Aqua Rivar Industries",
           "slogan": "Pure Water. Trusted Quality.",
           "url": "https://seraaqua.com/",
           "email": "info@seraaqua.com",
           "telephone": "+91-7397265829",
-          "description": "Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in multiple pack sizes for homes, offices and institutions."
+          "description": "Serra Aqua Rivar Industries supplies purified packaged drinking water in multiple pack sizes for homes, offices and institutions."
         },
         {
           "@type": "WebSite",
           "@id": "https://seraaqua.com/#website",
           "url": "https://seraaqua.com/",
-          "name": "Serra Aqua Rivar Industries Pvt Ltd",
+          "name": "Serra Aqua Rivar Industries",
           "publisher": { "@id": "https://seraaqua.com/#organization" },
           "inLanguage": "en"
         },
@@ -55,8 +55,8 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "What water products does Serra Aqua Rivar Industries Pvt Ltd supply?",
-              "acceptedAnswer": { "@type": "Answer", "text": "Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and institutions." }
+              "name": "What water products does Serra Aqua Rivar Industries supply?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Serra Aqua Rivar Industries supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and institutions." }
             },
             {
               "@type": "Question",
@@ -127,7 +127,7 @@
     <nav class="navbar navbar-expand-xl sera-navbar sticky-top" data-sera-navbar aria-label="Main navigation">
         <div class="container sera-navbar-inner">
             <a class="navbar-brand" href="index.php">
-                <img class="brand-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries Pvt Ltd" width="480" height="134" decoding="async">
+                <img class="brand-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries" width="480" height="134" decoding="async">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
@@ -379,150 +379,29 @@
 
     <main id="main-content">
 
-        <section id="heroCarousel" class="hero hero-carousel carousel slide" data-bs-ride="carousel"
+        <section id="heroCarousel" class="hero hero-carousel hero-carousel--image carousel slide" data-bs-ride="carousel"
             data-bs-interval="6000" data-bs-pause="false" data-bs-touch="true" data-bs-wrap="true"
             data-hero-carousel role="region" aria-roledescription="carousel" aria-label="Featured highlights">
 
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1: Pure water, trusted quality"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"
-                    aria-label="Slide 2: Five pack sizes"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"
-                    aria-label="Slide 3: Ten purification stages"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"
-                    aria-label="Slide 4: Corporate and bulk supply"></button>
-            </div>
+            <h1 class="visually-hidden" id="hero-heading">Pure Water. Trusted Quality.</h1>
 
             <div class="carousel-inner">
 
-                <div class="carousel-item active" role="group" aria-roledescription="slide" aria-label="1 of 4">
+                <div class="carousel-item active" role="group" aria-roledescription="slide" aria-label="1 of 2">
                     <div class="hero-slide hero-slide--photo">
-                        <video class="hero-slide-bg"
-                            data-src="./assets/images/hero/section1.mp4"
-                            poster="./assets/images/hero/section1-poster.jpg"
-                            width="1920" height="1080" muted loop playsinline preload="none"
-                            aria-hidden="true" tabindex="-1"></video>
-                        <span class="hero-slide-scrim" aria-hidden="true"></span>
-                        <div class="container hero-slide-body">
-                            <div class="hero-slide-content">
-                                <p class="label">Packaged Drinking Water</p>
-                                <h1 class="display" id="hero-heading">
-                                    Pure Water.<br>
-                                    <span class="accent">Trusted Quality.</span>
-                                </h1>
-                                <p class="hero-lead text-white">
-                                    Professionally purified drinking water for homes, businesses and institutions —
-                                    purified in controlled stages, filled hygienically and delivered on a schedule that suits you.
-                                </p>
-                                <div class="hero-actions">
-                                    <a class="btn btn-primary" href="order.php">
-                                        Enquire Now <i class="bi bi-arrow-right" aria-hidden="true"></i>
-                                    </a>
-                                    <a class="btn btn-outline-primary text-white bg-dark" href="products.php">Explore Products</a>
-                                </div>
-                                <ul class="trust-row text-white">
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Ten purification stages</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Hygienic filling &amp; sealing</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Scheduled delivery</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <img class="hero-slide-bg" src="./assets/images/hero/hero-1.jpg"
+                            alt="Serra Aqua 20 litre packaged drinking water jars against an ocean sunrise"
+                            width="1920" height="1080" fetchpriority="high" decoding="async">
                     </div>
                 </div>
 
-                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="2 of 4">
+                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="2 of 2">
                     <div class="hero-slide hero-slide--photo">
-                        <video class="hero-slide-bg"
-                            data-src="./assets/images/hero/section2.mp4"
-                            poster="./assets/images/hero/section2-poster.jpg"
-                            width="1920" height="1080" muted loop playsinline preload="none"
-                            aria-hidden="true" tabindex="-1"></video>
-                        <span class="hero-slide-scrim" aria-hidden="true"></span>
-                        <div class="container hero-slide-body">
-                            <div class="hero-slide-content">
-                                <p class="label">Pack Sizes</p>
-                                <h2 class="display">Five Pack Sizes. One Purified Source.</h2>
-                                <p class="hero-lead text-white">
-                                    20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles — purified from one
-                                    controlled source and packed to the same standard every time.
-                                </p>
-                                <div class="hero-actions">
-                                    <a class="btn btn-primary" href="products.php">View All Products</a>
-                                    <a class="btn btn-outline-primary text-white bg-dark" href="order.php">Enquire Now</a>
-                                </div>
-                                <ul class="trust-row text-white">
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 20 litre jar</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 2 litre &amp; 1 litre bottles</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> 500 ml &amp; 250 ml bottles</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="3 of 4">
-                    <div class="hero-slide hero-slide--photo">
-                        <video class="hero-slide-bg"
-                            data-src="./assets/images/hero/section3.mp4"
-                            poster="./assets/images/hero/section3-poster.jpg"
-                            width="1920" height="1080" muted loop playsinline preload="none"
-                            aria-hidden="true" tabindex="-1"></video>
-                        <span class="hero-slide-scrim" aria-hidden="true"></span>
-                        <div class="container hero-slide-body">
-                            <div class="hero-slide-content">
-                                <p class="label">Purification</p>
-                                <h2 class="display">Ten Controlled Purification Stages.</h2>
-                                <p class="hero-lead text-white">
-                                    Source water treatment, sand and activated carbon filtration, micron filtration,
-                                    reverse osmosis, UV sterilization, ozonation, mineral and TDS balancing, hygienic
-                                    storage and automated bottling with sealing.
-                                </p>
-                                <div class="hero-actions">
-                                    <a class="btn btn-primary" href="process.php">Explore Our Process</a>
-                                    <a class="btn btn-outline-primary text-white bg-dark" href="order.php">Enquire Now</a>
-                                </div>
-                                <ul class="trust-row text-white">
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Sand, carbon &amp; micron filtration</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Reverse osmosis</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> UV sterilization &amp; ozonation</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="4 of 4">
-                    <div class="hero-slide hero-slide--photo">
-                        <video class="hero-slide-bg"
-                            data-src="./assets/images/hero/section4.mp4"
-                            poster="./assets/images/hero/section4-poster.jpg"
-                            width="1920" height="1080" muted loop playsinline preload="none"
-                            aria-hidden="true" tabindex="-1"></video>
-                        <span class="hero-slide-scrim" aria-hidden="true"></span>
-                        <div class="container hero-slide-body">
-                            <div class="hero-slide-content">
-                                <p class="label">Get Started</p>
-                                <h2 class="display">Corporate &amp; Bulk Supply.</h2>
-                                <p class="hero-lead text-white">
-                                    Doorstep, scheduled and bulk delivery coordinated in advance, planned around the
-                                    pack size, quantity and frequency each customer actually needs.
-                                </p>
-                                <div class="hero-actions">
-                                    <a class="btn btn-primary" href="order.php">
-                                        <i class="bi bi-send" aria-hidden="true"></i> Request a Quote
-                                    </a>
-                                    <a class="btn btn-outline-primary text-white bg-dark" data-tel-primary href="#">
-                                        <i class="bi bi-telephone " aria-hidden="true"></i> Call Now
-                                    </a>
-                                </div>
-                                <ul class="trust-row">
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Offices &amp; IT environments</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Institutions &amp; campuses</li>
-                                    <li class="text-white"><i class="bi bi-check2" aria-hidden="true"></i> Events &amp; bulk quantities</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <!-- No loading="lazy": inactive carousel items are display:none,
+                             so a lazy image is never requested and slide 2 stays blank. -->
+                        <img class="hero-slide-bg" src="./assets/images/hero/hero-2.jpg"
+                            alt="Serra Aqua 250 ml, 500 ml and 1 litre packaged drinking water bottles"
+                            width="1920" height="1080" decoding="async">
                     </div>
                 </div>
 
@@ -545,7 +424,7 @@
 
         </section>
 
-        <section class="stats-band" aria-label="Serra Aqua Rivar Industries Pvt Ltd at a glance" data-counter-group>
+        <section class="stats-band" aria-label="Serra Aqua Rivar Industries at a glance" data-counter-group>
             <div class="container">
                 <div class="stat-item">
                     <span class="stat-number">10</span>
@@ -571,7 +450,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7" data-reveal>
                         <p class="label">Who We Are</p>
-                        <h2 id="about-heading">About Rivar Industries Pvt Ltd</h2>
+                        <h2 id="about-heading">About Rivar Industries</h2>
                         <p class="lead-text">
                             Pure drinking water made with care, technology and quality control.
                         </p>
@@ -590,7 +469,7 @@
                             </li>
                         </ul>
                         <p>
-                            Serra Aqua Rivar Industries Pvt Ltd is a packaged drinking water supplier producing 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and
+                            Serra Aqua Rivar Industries is a packaged drinking water supplier producing 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and
                             institutions. Source water is treated through a chain of controlled stages — sand
                             filtration, activated carbon filtration, micron filtration, reverse osmosis, UV
                             sterilization and ozonation — then balanced, stored and filled automatically so that
@@ -603,7 +482,7 @@
                     <div class="col-lg-5" data-reveal>
                         <figure class="media">
                             <img src="./assets/images/hero_section4.png"
-                                alt="Serra Aqua Rivar Industries Pvt Ltd bottling facility with treatment and filling lines"
+                                alt="Serra Aqua Rivar Industries bottling facility with treatment and filling lines"
                                 width="1280" height="720" loading="lazy">
                         </figure>
                     </div>
@@ -722,7 +601,7 @@
 
                 <p class="cert-note">
                     <i class="bi bi-info-circle" aria-hidden="true"></i>
-                    Third-party certification details are published here. Verified records for Serra Aqua Rivar Industries Pvt Ltd are available on request.
+                    Third-party certification details are published here. Verified records for Serra Aqua Rivar Industries are available on request.
                 </p>
             </div>
         </section>
@@ -736,7 +615,7 @@
                 </div>
 
                 <table class="pt-table" data-reveal>
-                    <caption class="visually-hidden">Serra Aqua Rivar Industries Pvt Ltd pack sizes, packaging type and typical use</caption>
+                    <caption class="visually-hidden">Serra Aqua Rivar Industries pack sizes, packaging type and typical use</caption>
                     <thead>
                         <tr>
                             <th scope="col">Pack Size</th>
@@ -859,7 +738,7 @@
                     <p class="certification-note">
                         <i class="bi bi-info-circle" aria-hidden="true"></i>
                         Licence and certificate numbers are published in each panel. Verified records for Serra
-                        Aqua Rivar Industries Pvt Ltd are available on request.
+                        Aqua Rivar Industries are available on request.
                     </p>
                     <a class="btn btn-invert btn-sm" href="contact.php">
                         Request records <i class="bi bi-arrow-right" aria-hidden="true"></i>
@@ -872,7 +751,7 @@
             <div class="container">
                 <div class="section-head" data-reveal>
                     <p class="label">Why Choose Us</p>
-                    <h2 id="why-heading">Why Choose Rivar Industries Pvt Ltd</h2>
+                    <h2 id="why-heading">Why Choose Rivar Industries</h2>
                     <p>Eight practical reasons customers stay with us — each one a step we can show, not just a promise.</p>
                 </div>
 
@@ -1046,11 +925,11 @@
                     <div class="accordion-item">
                         <h3 class="accordion-header" id="faqHead1">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
-                                aria-expanded="true" aria-controls="faq1">What water products does Serra Aqua Rivar Industries Pvt Ltd supply?</button>
+                                aria-expanded="true" aria-controls="faq1">What water products does Serra Aqua Rivar Industries supply?</button>
                         </h3>
                         <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faqHead1" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and institutions.
+                                Serra Aqua Rivar Industries supplies purified packaged drinking water in 20 litre jars, and 2 litre, 1 litre, 500 ml and 250 ml bottles for homes, offices and institutions.
                             </div>
                         </div>
                     </div>
@@ -1180,10 +1059,10 @@
             <div class="row g-5">
                 <div class="col-lg-5">
                     <div class="footer-brand-line">
-                        <img class="footer-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries Pvt Ltd" width="480" height="134" loading="lazy" decoding="async">
+                        <img class="footer-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries" width="480" height="134" loading="lazy" decoding="async">
                     </div>
                     <p class="footer-about">
-                        Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in five pack sizes, produced through
+                        Serra Aqua Rivar Industries supplies purified packaged drinking water in five pack sizes, produced through
                         controlled purification stages and delivered to homes, offices and institutions.
                     </p>
                     <ul class="footer-list footer-contact">
@@ -1243,7 +1122,7 @@
             </div>
 
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
-                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
+                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries. All Rights Reserved.</span>
                 <span class="footer-credit">Designed &amp; Developed by Circle Designs</span>
             </div>
         </div>

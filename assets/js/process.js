@@ -1,4 +1,4 @@
-/* SERRA AQUA RIVAR INDUSTRIES PVT LTD — process.js
+/* SERRA AQUA Rivar Industries — process.js
    Stage reveal staggering, video play/pause on view, rail progress. */
 
 (function () {

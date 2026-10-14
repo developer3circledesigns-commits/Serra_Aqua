@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | Serra Aqua Rivar Industries Pvt Ltd</title>
-    <meta name="description" content="Privacy policy for Serra Aqua Rivar Industries Pvt Ltd.">
+    <title>Privacy Policy | Serra Aqua Rivar Industries</title>
+    <meta name="description" content="Privacy policy for Serra Aqua Rivar Industries.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#004F4A">
     <link rel="canonical" href="https://seraaqua.com/privacy-policy.php">
@@ -20,12 +20,12 @@
 <body>
     <main id="main-content" class="container" style="padding-block: 4rem;">
         <h1>Privacy Policy</h1>
-        <p>This privacy policy describes how Serra Aqua Rivar Industries Pvt Ltd handles information collected through this website. Details to be supplied with final policy text.</p>
+        <p>This privacy policy describes how Serra Aqua Rivar Industries handles information collected through this website. Details to be supplied with final policy text.</p>
     </main>
     <footer class="sera-footer">
         <div class="container">
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
-                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
+                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries. All Rights Reserved.</span>
                 <span class="footer-credit">Designed &amp; Developed by Circle Designs</span>
             </div>
         </div>

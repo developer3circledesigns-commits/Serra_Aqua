@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms | Serra Aqua Rivar Industries Pvt Ltd</title>
-    <meta name="description" content="Terms of use for Serra Aqua Rivar Industries Pvt Ltd website.">
+    <title>Terms | Serra Aqua Rivar Industries</title>
+    <meta name="description" content="Terms of use for Serra Aqua Rivar Industries website.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#004F4A">
     <link rel="canonical" href="https://seraaqua.com/terms.php">
@@ -25,7 +25,7 @@
     <footer class="sera-footer">
         <div class="container">
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
-                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
+                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries. All Rights Reserved.</span>
                 <span class="footer-credit">Designed &amp; Developed by Circle Designs</span>
             </div>
         </div>

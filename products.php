@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products | Serra Aqua Rivar Industries Pvt Ltd</title>
-    <meta name="description" content="Packaged drinking water products from Serra Aqua Rivar Industries Pvt Ltd — 20 L, 2 L, 1 L, 500 ml and 250 ml pack sizes for homes, offices and institutions.">
+    <title>Products | Serra Aqua Rivar Industries</title>
+    <meta name="description" content="Packaged drinking water products from Serra Aqua Rivar Industries — 20 L, 2 L, 1 L, 500 ml and 250 ml pack sizes for homes, offices and institutions.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#004F4A">
     <link rel="canonical" href="https://seraaqua.com/products.php">
@@ -44,7 +44,7 @@
     <nav class="navbar navbar-expand-xl sera-navbar sticky-top" data-sera-navbar aria-label="Main navigation">
         <div class="container sera-navbar-inner">
             <a class="navbar-brand" href="index.php">
-                <img class="brand-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries Pvt Ltd" width="480" height="134" decoding="async">
+                <img class="brand-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries" width="480" height="134" decoding="async">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
@@ -316,9 +316,9 @@
             <div class="row g-5">
                 <div class="col-lg-5">
                     <div class="footer-brand-line">
-                        <img class="footer-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries Pvt Ltd" width="480" height="134" loading="lazy" decoding="async">
+                        <img class="footer-logo" src="./assets/images/logo.png" alt="Serra Aqua - Rivar Industries" width="480" height="134" loading="lazy" decoding="async">
                     </div>
-                    <p class="footer-about">Serra Aqua Rivar Industries Pvt Ltd supplies purified packaged drinking water in five pack sizes, produced through controlled purification stages and delivered to homes, offices and institutions.</p>
+                    <p class="footer-about">Serra Aqua Rivar Industries supplies purified packaged drinking water in five pack sizes, produced through controlled purification stages and delivered to homes, offices and institutions.</p>
                     <ul class="footer-list footer-contact">
                         <li><i class="bi bi-telephone" aria-hidden="true"></i><span><a data-tel-primary href="#">+91 7397265829</a></span></li>
                         <li><i class="bi bi-envelope" aria-hidden="true"></i><a data-mail href="#">info@seraaqua.com</a></li>
@@ -356,7 +356,7 @@
                 </div>
             </div>
             <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
-                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries Pvt Ltd. All Rights Reserved.</span>
+                <span>&copy; <span id="currentYear">2026</span> Serra Aqua Rivar Industries. All Rights Reserved.</span>
                 <span class="footer-credit">Designed &amp; Developed by Circle Designs</span>
             </div>
         </div>
