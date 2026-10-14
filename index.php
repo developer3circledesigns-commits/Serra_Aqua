@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -389,9 +389,17 @@
 
                 <div class="carousel-item active" role="group" aria-roledescription="slide" aria-label="1 of 2">
                     <div class="hero-slide hero-slide--photo">
-                        <img class="hero-slide-bg" src="./assets/images/hero/hero-1.jpg"
-                            alt="Serra Aqua 20 litre packaged drinking water jars against an ocean sunrise"
-                            width="1920" height="1080" fetchpriority="high" decoding="async">
+                        <picture>
+                            <source media="(max-width: 767.98px)" srcset="./assets/images/hero/hero-1-mobile-750.webp"
+                                width="750" height="1100" type="image/webp">
+                            <source srcset="./assets/images/hero/hero-1-desktop-2560.webp"
+                                width="2560" height="1440" type="image/webp">
+                            <source srcset="./assets/images/hero/hero-1-desktop-1920.webp"
+                                width="1920" height="1080" type="image/webp">
+                            <img class="hero-slide-bg" src="./assets/images/hero/hero-1-desktop-1920.webp"
+                                alt="Serra Aqua 20 litre packaged drinking water jars against an ocean sunrise"
+                                width="1920" height="1080" fetchpriority="high" decoding="async">
+                        </picture>
                     </div>
                 </div>
 
@@ -399,9 +407,17 @@
                     <div class="hero-slide hero-slide--photo">
                         <!-- No loading="lazy": inactive carousel items are display:none,
                              so a lazy image is never requested and slide 2 stays blank. -->
-                        <img class="hero-slide-bg" src="./assets/images/hero/hero-2.jpg"
-                            alt="Serra Aqua 250 ml, 500 ml and 1 litre packaged drinking water bottles"
-                            width="1920" height="1080" decoding="async">
+                        <picture>
+                            <source media="(max-width: 767.98px)" srcset="./assets/images/hero/hero-2-mobile-750.webp"
+                                width="750" height="1100" type="image/webp">
+                            <source srcset="./assets/images/hero/hero-2-desktop-2560.webp"
+                                width="2560" height="1440" type="image/webp">
+                            <source srcset="./assets/images/hero/hero-2-desktop-1920.webp"
+                                width="1920" height="1080" type="image/webp">
+                            <img class="hero-slide-bg" src="./assets/images/hero/hero-2-desktop-1920.webp"
+                                alt="Serra Aqua 250 ml, 500 ml and 1 litre packaged drinking water bottles"
+                                width="1920" height="1080" decoding="async">
+                        </picture>
                     </div>
                 </div>
 
