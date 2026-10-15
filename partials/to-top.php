@@ -1,0 +1,1 @@
+<button class="to-top<?= $to_top_class !== '' ? ' ' . $to_top_class : '' ?>" type="button" data-to-top aria-label="Back to top"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>

@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=20261015">
     <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -361,17 +361,19 @@
                     <p class="label">Office Packs</p>
                     <h2 id="corp-products-heading">Products Suitable for Workplaces</h2>
                 </div>
+                <div class="pt-table-wrap">
                 <table class="pt-table" data-reveal>
                     <caption class="visually-hidden">Corporate pack sizes and typical use</caption>
                     <thead><tr><th scope="col">Pack Size</th><th scope="col">Typical Use</th><th scope="col">Action</th></tr></thead>
                     <tbody>
-                        <tr><th scope="row">20 L Water Jar</th><td>Office floors, cafeterias, and meeting rooms.</td><td><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
-                        <tr><th scope="row">2 L Water Bottle</th><td>Family-sized bottle for daily table use and small group requirements.</td><td><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
-                        <tr><th scope="row">1 L Water Bottle</th><td>Individual desks, pantry shelves, and retail desks.</td><td><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
-                        <tr><th scope="row">500 ml Water Bottle</th><td>Meetings, visitor refreshment, and travel kits.</td><td><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
-                        <tr><th scope="row">250 ml Water Bottle</th><td>Individual serving size for events, conferences, travel and hotel rooms.</td><td><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
+                        <tr><th scope="row">20 L Water Jar</th><td data-label="Typical Use">Office floors, cafeterias, and meeting rooms.</td><td data-label="Action"><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
+                        <tr><th scope="row">2 L Water Bottle</th><td data-label="Typical Use">Family-sized bottle for daily table use and small group requirements.</td><td data-label="Action"><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
+                        <tr><th scope="row">1 L Water Bottle</th><td data-label="Typical Use">Individual desks, pantry shelves, and retail desks.</td><td data-label="Action"><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
+                        <tr><th scope="row">500 ml Water Bottle</th><td data-label="Typical Use">Meetings, visitor refreshment, and travel kits.</td><td data-label="Action"><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
+                        <tr><th scope="row">250 ml Water Bottle</th><td data-label="Typical Use">Individual serving size for events, conferences, travel and hotel rooms.</td><td data-label="Action"><a class="btn btn-outline-primary btn-sm" href="#corporate-enquiry">Enquire</a></td></tr>
                     </tbody>
                 </table>
+                </div>
             </div>
         </section>
 
